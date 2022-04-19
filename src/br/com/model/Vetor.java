@@ -26,6 +26,20 @@ public class Vetor {
        }
    }
 
+   //pensar num método de sobrecarga
+   public boolean existsInCollection(int position)
+   {
+
+     if(this.isElementValid(position))
+     {
+        if(this.elements[position] > 0)
+        {
+           return true;
+        }
+     }
+     return false;
+   }
+
    public int getTotal()
    {
         return this.total;
@@ -33,29 +47,32 @@ public class Vetor {
 
    private boolean isElementValid(int element)
    {
-       if(!(element <= -1) && element > 0)
+       if((!(element <= -1) && element > 0) || element >= 0 && element <= this.total)
        {
            return true;
        }
        return false;
    }
 
-    @Override
-    public String toString() {
+   public int get(int position)
+   {
+      if(position >= 0 && position <= this.total)
+      {
+          return this.elements[position];
+      }
+      return -1;
+   }
 
-        Integer[] aux = new Integer[this.total];
-//        aux[0] = 0;
-//        aux[1] = 22;
+   @Override
+   public String toString() {
 
-        //Estava dando Exception pois eu estava tentando atribuir um elemento a um array com tamanho 0
+       Integer[] aux = new Integer[this.total];
 
-        for (int i = 1; i <=this.total; i++)
-        {
-            if(this.elements[i] > 0){
-               aux[i] = this.elements[i];
-            }
-        }
+       for (int i = 0; i < this.total; i++)
+       {
+           aux[i] = this.elements[i];
+       }
 
-        return Arrays.toString(aux);
-    }
+       return Arrays.toString(aux);
+   }
 }

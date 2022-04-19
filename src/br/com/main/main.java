@@ -8,11 +8,19 @@ public class main {
     {
         Vetor list = new Vetor(5);
 
-        list.add(-6);
         list.add(26);
         list.add(18);
-        list.add(0);
+        list.add(22);
 
-        System.out.println(list);
+        boolean value = list.existsInCollection(1);
+
+        if(value)
+        {
+            System.out.println("Elemento existe");
+        }
+        else
+        {
+            System.out.println("Elemento não existe");
+        }
     }
 }
