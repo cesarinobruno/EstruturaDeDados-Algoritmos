@@ -47,7 +47,7 @@ public class Vetor {
 
    private boolean isElementValid(int element)
    {
-       if((!(element <= -1) && element > 0) || element >= 0 && element <= this.total)
+       if(element > 0 && (element >=0 || element <= this.total))
        {
            return true;
        }
@@ -58,7 +58,10 @@ public class Vetor {
    {
       if(position >= 0 && position <= this.total)
       {
-          return this.elements[position];
+          if(this.elements[position] > 0)
+          {
+              return this.elements[position];
+          }
       }
       return -1;
    }
