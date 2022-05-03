@@ -26,13 +26,12 @@ public class Vetor {
        }
    }
 
-   //pensar num método de sobrecarga
-   public boolean existsInCollection(int position)
+   public boolean existsInCollection(int index)
    {
 
-     if(this.isElementValid(position))
+     if(this.isElementValid(index))
      {
-        if(this.elements[position] > 0)
+        if(this.elements[index] > 0)
         {
            return true;
         }
@@ -45,7 +44,33 @@ public class Vetor {
         return this.total;
    }
 
-   private boolean isElementValid(int element)
+
+   public void add(Integer element, Integer position)
+   {
+        this.positionIsValid(position);
+
+        if(this.isElementValid(element))
+        {
+            for(int x = this.total; x >= position; x--)
+            {
+                this.elements[x+1] = this.elements[x];
+            }
+
+            this.elements[position] = element;
+            this.total++;
+        }
+
+   }
+
+   private void positionIsValid(int position)
+   {
+    if(position < 0)
+      {
+        throw new IllegalArgumentException("Position invalid");
+      }
+   }
+
+    private boolean isElementValid(int element)
    {
        if(element > 0 && (element >=0 || element <= this.total))
        {
@@ -54,13 +79,13 @@ public class Vetor {
        return false;
    }
 
-   public int get(int position)
+   public int get(int index)
    {
-      if(position >= 0 && position <= this.total)
+      if(index >= 0 && index <= this.total)
       {
-          if(this.elements[position] > 0)
+          if(this.elements[index] > 0)
           {
-              return this.elements[position];
+              return this.elements[index];
           }
       }
       return -1;
