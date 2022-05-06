@@ -8,15 +8,16 @@ public class main {
     {
         Vetor list = new Vetor(5);
 
-        list.add(10);
-        list.add(18);
-        list.add(22);
+        list.add(10); //0
+        list.add(18); //1
+        list.add(22); //2
+        list.add(30); //3
+        list.add(40); //4
 
-        System.out.println("Antes: " + list);
+        list.add(100);
 
-        list.add(15, 1);
 
-        System.out.println("Depois: " + list);
+        System.out.println(list);
 
     }
 }

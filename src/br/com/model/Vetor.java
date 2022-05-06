@@ -19,7 +19,9 @@ public class Vetor {
 
    public void add(Integer element)
    {
-       if(this.isElementValid(element) && this.total < this.elements.length)
+       this.increaseSize();
+
+       if(this.isElementValid(element))
        {
            this.elements[total] = element;
            this.total++;
@@ -44,23 +46,8 @@ public class Vetor {
         return this.total;
    }
 
+    //implementar adicionar elemento em qualquer posicao
 
-   public void add(Integer element, Integer position)
-   {
-        this.positionIsValid(position);
-
-        if(this.isElementValid(element))
-        {
-            for(int x = this.total; x >= position; x--)
-            {
-                this.elements[x+1] = this.elements[x];
-            }
-
-            this.elements[position] = element;
-            this.total++;
-        }
-
-   }
 
    private void positionIsValid(int position)
    {
@@ -70,6 +57,23 @@ public class Vetor {
       }
    }
 
+   public void add(Integer element, Integer position)
+   {
+       this.positionIsValid(position);
+
+       if(this.isElementValid(element))
+       {
+           //this.total -> representa qts elementos de fato tem no meu array
+           for(int x = this.total; x >= position; x--)
+           {
+               this.elements[x+1] = this.elements[x];
+           }
+
+           this.elements[position] = element;
+           this.total++;
+       }
+   }
+
     private boolean isElementValid(int element)
    {
        if(element > 0 && (element >=0 || element <= this.total))
@@ -77,6 +81,25 @@ public class Vetor {
            return true;
        }
        return false;
+   }
+
+   public void increaseSize()
+   {
+       //has no capacity
+       if(this.total == this.elements.length)
+       {
+           int aux[] = new int[this.elements.length * 2];
+
+           int count = 0;
+
+           while (count < this.elements.length)
+           {
+               aux[count] = this.elements[count];
+               count++;
+           }
+           //return to current collection
+           this.elements = aux;
+       }
    }
 
    public int get(int index)
