@@ -28,12 +28,24 @@ public class Vetor {
        }
    }
 
+   private Integer search(int position)
+   {
+       return this.elements[position];
+   }
+
+   public Integer lastIndexOf()
+   {
+    //return this.total; 5 total preenchido
+       int res = this.total - 1;
+    return this.elements[this.total - 1];
+   }
+
    public boolean existsInCollection(int index)
    {
 
      if(this.isElementValid(index))
      {
-        if(this.elements[index] > 0)
+        if(search(index) > 0)
         {
            return true;
         }
@@ -47,7 +59,6 @@ public class Vetor {
    }
 
     //implementar adicionar elemento em qualquer posicao
-
 
    private void positionIsValid(int position)
    {
