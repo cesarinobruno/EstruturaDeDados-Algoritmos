@@ -33,16 +33,21 @@ public class Vetor {
        return this.elements[position];
    }
 
-   public Integer lastIndexOf()
+   public Integer lastIndexOf(int element)
    {
-    //return this.total; 5 total preenchido
-       int res = this.total - 1;
-    return this.elements[this.total - 1];
-   }
+    int lastIndex = -1;
+    for (int x = this.elements.length - 1; x >=0; x--)
+    {
+        if(this.elements[x] == element){
+            lastIndex = x;
+            return lastIndex;
+        }
+    }
+       return lastIndex;
+    }
 
    public boolean existsInCollection(int index)
    {
-
      if(this.isElementValid(index))
      {
         if(search(index) > 0)
@@ -59,7 +64,6 @@ public class Vetor {
    }
 
     //implementar adicionar elemento em qualquer posicao
-
    private void positionIsValid(int position)
    {
     if(position < 0)
@@ -126,15 +130,14 @@ public class Vetor {
    }
 
    @Override
-   public String toString() {
-
+   public String toString()
+   {
        Integer[] aux = new Integer[this.total];
 
        for (int i = 0; i < this.total; i++)
        {
            aux[i] = this.elements[i];
        }
-
        return Arrays.toString(aux);
    }
 }

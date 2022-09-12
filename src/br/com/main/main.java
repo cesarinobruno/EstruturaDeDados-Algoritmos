@@ -10,10 +10,12 @@ public class main {
 
         list.add(10); //0
         list.add(15); //1
+        list.add(30); //2
+        list.add(45); //3
+        list.add(85); //4
+        list.add(10); //5
 
-
-//        boolean exists = list.existsInCollection(4);
-        Integer result = list.lastIndexOf();
+        Integer result = list.lastIndexOf(10);
 
         System.out.println("resultado: " + result);
 

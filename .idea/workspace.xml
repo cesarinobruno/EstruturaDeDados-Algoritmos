@@ -21,22 +21,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/main/main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/estruturadados/base/EstruturaEstatica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="112">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/model/Lista2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/pilha/Pilha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/model/Vetor.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/main/aula13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1620">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
               <folding>
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#161#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +98,7 @@
       <find>total</find>
       <find>(position &gt;= 0 &amp;&amp; position &lt;= this.total</find>
       <find>existsInCollection</find>
+      <find>adiciona</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -72,6 +114,12 @@
         <option value="$PROJECT_DIR$/src/br/com/model/exercicios/Vetor.java" />
         <option value="$PROJECT_DIR$/src/br/com/model/Vetor.java" />
         <option value="$PROJECT_DIR$/src/br/com/main/main.java" />
+        <option value="$PROJECT_DIR$/src/br/com/model/ModelTest.java" />
+        <option value="$PROJECT_DIR$/src/br/com/main/Test.java" />
+        <option value="$PROJECT_DIR$/src/br/com/model/Lista2.java" />
+        <option value="$PROJECT_DIR$/src/com/estruturadados/base/EstruturaEstatica.java" />
+        <option value="$PROJECT_DIR$/src/br/com/pilha/Pilha.java" />
+        <option value="$PROJECT_DIR$/src/br/com/main/aula13.java" />
       </list>
     </option>
   </component>
@@ -93,6 +141,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,11 +154,34 @@
               <item name="EstruturaDeDados-Algoritmos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EstruturaDeDados-Algoritmos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstruturaDeDados-Algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstruturaDeDados-Algoritmos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstruturaDeDados-Algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstruturaDeDados-Algoritmos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstruturaDeDados-Algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pilha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstruturaDeDados-Algoritmos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstruturaDeDados-Algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,7 +190,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,20 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Ex_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.exercicios.Ex_main" />
-      <module name="EstruturaDeDados__Algoritmos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.aula13">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.main.exercicios.Main" />
       <module name="EstruturaDeDados__Algoritmos" />
@@ -159,12 +218,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.br.Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.main.Test" />
       <module name="EstruturaDeDados__Algoritmos" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aula13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.main.aula13" />
+      <module name="EstruturaDeDados__Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,19 +271,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex_main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Application.main" />
       <item itemvalue="Application.teste1" />
+      <item itemvalue="Application.aula13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aula13" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.teste1" />
-        <item itemvalue="Application.Ex_main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -235,9 +310,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="25" width="2560" height="1055" extended-state="6" />
+    <frame x="0" y="-2" width="1366" height="770" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49655172" visible="true" weight="0.09466985" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49655172" visible="true" weight="0.25984848" />
       <window_info id="Structure" order="1" sideWeight="0.50124687" side_tool="true" weight="0.16389728" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -246,15 +322,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.50344825" side_tool="true" weight="0.20347957" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23225807" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35376343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35658914" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27419356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3255814" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11675676" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11612903" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32868218" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3243824" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.324031" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -316,12 +392,6 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/model/Vetor.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -332,6 +402,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(mt.isAdmin() &amp;&amp; ownerId.equals(frontProgramId)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>aux[x] != position</expression-string>
         <language-id>JAVA</language-id>
@@ -369,11 +444,6 @@
       </expression>
       <expression>
         <expression-string>vt.getOrganizationId() != null &amp;&amp; vt.getOrganizationId().equals(71)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>vt.getOrganizationId() != null &amp;&amp; vt.getOrganizationId().equals(71))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -425,20 +495,89 @@
     <entry file="file://$PROJECT_DIR$/src/br/com/exercicios/Ex_Vetor.java" />
     <entry file="file://$PROJECT_DIR$/src/br/com/main/exercicios/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/br/com/model/exercicios/Vetor.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/main/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/model/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/main/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="408">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/model/Vetor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="233">
+          <caret line="91" selection-start-line="91" selection-end-line="98" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/model/Lista2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/estruturadados/base/EstruturaEstatica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/pilha/Pilha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/main/aula13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#161#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
