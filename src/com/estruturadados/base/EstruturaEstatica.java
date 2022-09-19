@@ -1,10 +1,12 @@
 package com.estruturadados.base;
 
+import com.sun.xml.internal.ws.util.StringUtils;
+
 public class EstruturaEstatica<T>
 {
 
-    private T[] elementos;
-    private int tamanho;
+    protected T[] elementos;
+    protected int tamanho;
 
     public EstruturaEstatica(int capacidade)
     {
@@ -30,6 +32,20 @@ public class EstruturaEstatica<T>
         return false;
     }
 
+    protected boolean estaVazio()
+    {
+        return this.tamanho == 0;
+    }
+
+    protected T verificarTopoPilha()
+    {
+        if(this.estaVazio())
+        {
+            return null;
+        }
+        return this.elementos[tamanho - 1];
+    }
+
     protected int getTamanho()
     {
         return this.tamanho;
@@ -47,6 +63,18 @@ public class EstruturaEstatica<T>
           }
           this.elementos = elementosNovos;
         }
+    }
+
+    protected T desempilha()
+    {
+        if(estaVazio())
+        {
+            return null;
+        }
+
+        T elemento = this.elementos[this.tamanho - 1];
+        this.tamanho--;
+        return elemento;
     }
 
     protected boolean adiciona(int posicao, T elemento)
