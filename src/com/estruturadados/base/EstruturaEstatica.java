@@ -1,7 +1,5 @@
 package com.estruturadados.base;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
 public class EstruturaEstatica<T>
 {
 
@@ -43,7 +41,7 @@ public class EstruturaEstatica<T>
         {
             return null;
         }
-        return this.elementos[tamanho - 1];
+        return this.elementos[this.tamanho - 1];
     }
 
     protected int getTamanho()
